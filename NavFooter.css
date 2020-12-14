@@ -1,0 +1,322 @@
+/* Main Container that sets everything centered */
+.main{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.navbar{
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+
+    background-image: url('images/bg_desk2.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 10px 10px;
+    background-image:
+      linear-gradient(to right, #F8F8F8 0.5px, transparent 0.5px),
+      linear-gradient(to bottom, #F8F8F8 0.5px, transparent 0.5px); */
+
+    /* background: #ffffff;  
+    background: -webkit-linear-gradient(to bottom #ffffff, #ffffff, #FBDEDE, #FBDEDE, #ffffff, #FFFFFF); 
+    background: linear-gradient(to bottom, #ffffff, #ffffff, #FBDEDE, #FBDEDE, #ffffff, #FFFFFF); */
+
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+  /* Spacing between Features and Additionals */
+.space{
+    /* background-color: white; */
+    padding: 0.5em;
+    flex: 0 0 75%;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+
+    /* background-size: 10px 10px;
+    background-image:
+      linear-gradient(to right, #F8F8F8 0.5px, transparent 0.5px),
+      linear-gradient(to bottom, #F8F8F8 0.5px, transparent 0.5px); */
+}
+
+/* Fonts */
+h3 {
+    font-family: 'Nunito', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    margin-bottom: 24px;
+    color: #3A4750;
+}
+
+h2{
+    font-family: 'Nunito', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    line-height: 1em;
+    font-weight: 600;
+    color: #3A4750;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    cursor: pointer;
+    color: #3A4750;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-size: 16px;
+    font-weight: 10;
+    color: #3A4750;
+}
+
+ b{
+    color: #ED5958;
+}
+
+mark{
+    color: white;
+    background-color: #ED5958;
+}
+
+
+/* Nav Bar (Title + Links) */
+.title-name a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    color: #ED5958;
+}
+
+.title-name a:hover{
+    color: #3A4750;
+    transition: 0.3s;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+
+/*--- Red Box (box-e) ---*/
+/* .title-name .custom-underline::after {
+    top: 65%;
+    height: 2px;
+    width: 0%;
+    left: 5%;
+    background-color: red;
+      transition: 0.5s ease all .3s;
+  }
+  
+  .title-name:hover .custom-underline::after {
+    width: 90%;
+      transition: 0.3s ease all;
+  } */
+
+  /* .title-name a::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 10px;
+    background: #ED5958;
+    opacity: 70%;
+    transition: width .3s;
+   }
+
+.title-name a:hover::after{
+    font-weight: 600;
+    width: 26%;
+    color: #ED5958;
+    opacity: 70%;
+    transition: width .3s;
+   } */
+
+::selection {
+    background: #ED5958;
+    color: #ffffff;
+}
+
+/* Title Links */
+.title-links {
+    font-family: 'Nunito', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    margin-left: auto;
+    display: block;
+}
+
+
+ul {
+    list-style: none;
+    display: block;
+    /* list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+}
+
+.title-links li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.title-links a{
+    color: rgba(58,71,80,.6);
+    font-weight: 300;
+    text-decoration: none;
+    transition: 60ms;
+
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+
+.title-links a:hover{
+    color:#ED5958;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 60ms;
+
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+
+/* Company Links Highlighted in Description */
+.homepage-link-f-link{
+    color: #ED5958;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+}
+
+.homepage-link-f-link:hover{
+    color: #3A4750;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+
+.homepage-link-f-link:after {
+    background: rgba(33,133,213,.1);
+    content: '';
+    display: block;
+    position: absolute;
+    right: -5px;
+    bottom: 2px;
+    height: 12px;
+    width: 0;
+    -webkit-transition: width .4s ease;
+    transition: width .4s ease;
+}
+
+.homepage-link-teal-link{
+    color: #ED5958;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+}
+
+.homepage-link-teal-link:hover{
+    color: #3A4750;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+
+.homepage-link-teal-link:after {
+    background: rgba(33,133,213,.1);
+    content: '';
+    display: block;
+    position: absolute;
+    right: -5px;
+    bottom: 2px;
+    height: 12px;
+    width: 0;
+    -webkit-transition: width .4s ease;
+    transition: width .4s ease;
+}
+
+/* Title description */
+.title-description {
+    font-family: 'Nunito', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    animation: fadein .5s both;
+    animation-delay: .1s;
+    color: rgba(58,71,80,.7);
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+
+/* Footer */
+.social-media-container {
+    font-family: 'Nunito', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    animation: fadein .5s both;
+    animation-delay: .4s;
+    border-top: 1px solid rgba(58,71,80,.2);
+    padding: 20px 0;
+
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.social-media-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.social-media-container li {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 12px;
+    opacity: .6;
+    transition: 100ms;
+}
+
+.social-media-container a {
+    border-bottom: none;
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    color: #3A4750;
+}
+
+.footer-left a:hover{
+    color:#ED5958;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}
+
+.footer-right{
+    font-family: 'Nunito', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    margin-left: auto;
+    display: block;
+    font-weight: 300;
+    color: #3A4750;
+}
+
+.footer-right a:hover{
+    color:#ED5958;
+    -webkit-transition-duration: 0.3s; 
+    transition-duration: 0.3s;
+}

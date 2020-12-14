@@ -1,0 +1,119 @@
+#edits{
+    /* these are edits on the actual image */
+    max-width: 150%;
+    display: block;
+    border-radius: 8px;
+}
+
+#desc{
+    margin-top: 0%;
+    font-size: 25px;
+    float: right;
+    clear: left;
+}
+
+#exp{
+    float: right;
+    clear: left;
+}
+
+/* COLUMNS for my photo and description */
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Features */
+.text{
+    float: left;
+    clear: right;
+    margin-right: 3em;
+    padding: 40px;
+}
+
+.feats{
+    float: right;
+    clear: left;
+
+    /* vertical-align: middle; */
+    border-style: none;
+    padding: 20px;
+    height: 33%;
+    width: 33%;
+}
+
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+
+.card{
+    /* Add shadows to create the "card" effect
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1); */
+    transition: 0.3s;
+
+    /* Basic Card Shape */
+    background-color: white;
+    padding: 0.1em;
+    flex: 0 0 75%;
+    /* max-width: 75%; */
+
+    /* Card Qualities */
+    box-sizing: border-box;
+    display: flex;
+    flex: 1 1 auto;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+
+    /* Zoom */
+    transition: transform .3s; /* Animation */
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    /* background-color:#F5F5F5; */
+    box-shadow: 0 8px 16px 0 #ED5958;
+    transform: scale(1.05);
+  }
+
+/* Button within Card */
+.button {
+    /* spacing from button to text */
+    margin-top: 2em;
+
+    border: none;
+    border-radius: 0.3em;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    color: #ED5958;
+    background-color: white;
+
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.button:hover {
+    color: white;
+    background-color: #ED5958;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:active {
+  color: white;
+  background-color: #ED5958;
+  font-weight: 700;
+  border: none;
+}
